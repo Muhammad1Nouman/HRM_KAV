@@ -46,7 +46,7 @@ namespace TestApp
 
         public Uri UpdateXmlLocation
         {
-			get { return new Uri("https://raw.githubusercontent.com/henryxrl/SharpUpdate/master/project.xml"); }
+            get { return new Uri("https://raw.githubusercontent.com/Muhammad1Nouman/HRM_KAV/master/SharpUpdate-master/project.xml"); }
         }
 
         public Form Context
@@ -58,6 +58,11 @@ namespace TestApp
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("WellDone Nauman");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
